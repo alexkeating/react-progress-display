@@ -1,3 +1,6 @@
+# Misc
+*.idea
+
 # Logs
 logs
 *.log
