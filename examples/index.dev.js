@@ -1,9 +1,10 @@
 import React from 'react';
 import { render } from 'react-dom';
 
-import { ProgressBar } from './src/ProgressBar';
+import { Root } from './src/Root.js';
+import '../styles/css/progress-bar.css';
 
 render(
-  <ProgressBar />,
+  <Root />,
   document.getElementById('root')
 );

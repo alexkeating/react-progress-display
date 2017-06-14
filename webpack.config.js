@@ -1,5 +1,5 @@
 module.exports = {
-  entry: './index.dev.js',
+  entry: './examples/index.dev.js',
   module: {
     rules: [{
       test: /\.jsx?$/,
@@ -7,7 +7,7 @@ module.exports = {
       exclude: /node_modules/,
     }, {
       test: /\.s?css$/,
-      loader: 'style-loader!css-loader!sass-loader!import-glob-loader',
+      loader: 'style-loader!css-loader',
       exclude: /node_modules/,
     }],
   },
@@ -15,6 +15,6 @@ module.exports = {
     historyApiFallback: true,
   },
   resolve: {
-    extensions: ['.js', '.jsx', '.scss'],
+    extensions: ['.js', '.jsx', '.css'],
   },
 };

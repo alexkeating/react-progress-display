@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "clean": "rimraf lib",
-    "start": "webpack-dev-server --port 3000 --inline --hot",
+    "dev": "webpack-dev-server --port 3000 --inline --hot",
     "test": "jest --coverage",
     "lint": "eslint --ignore-path .eslintignore --ext .js --ext .jsx ./",
     "fix": "eslint . --fix",
@@ -43,6 +43,7 @@
     "webpack-dev-server": "^2.4.5"
   },
   "dependencies": {
+    "prop-types": "^15.5.10",
     "react": "^15.5.4"
   }
 }
