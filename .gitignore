@@ -1,5 +1,6 @@
 # Misc
 *.idea
+coverage
 
 # Logs
 logs
