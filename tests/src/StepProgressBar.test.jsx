@@ -1,10 +1,10 @@
 import React from 'react';
-import { ProgressBar } from '../../src/ProgressBar';
+import { StepProgressBar } from '../../src/StepProgressBar';
 import renderer from 'react-test-renderer';
 
-test('ProgressBar snapshot', () => {
+test('StepProgressBar snapshot', () => {
   const component = renderer.create(
-    <ProgressBar steps={6} className='progress-bar' activeSteps={[0]} />
+    <StepProgressBar steps={6} className='progress-bar' activeSteps={[0]} />
   );
   let tree = component.toJSON();
   expect(tree).toMatchSnapshot();

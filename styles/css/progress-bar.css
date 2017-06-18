@@ -11,7 +11,7 @@
   overflow: hidden
 }
 
-.active {
+.progress-bar-active {
   height: 100%;
   width: 100%;
   background: #4CA64C;
@@ -19,7 +19,7 @@
   transition: background 0.2s ease;
 }
 
-.disabled {
+.progress-bar-disabled {
   height: 100%;
   width: 100%;
   background: #FF4C4C;

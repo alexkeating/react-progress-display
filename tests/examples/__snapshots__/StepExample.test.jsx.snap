@@ -6,32 +6,32 @@ exports[`StepExample snapshot 1`] = `
     className="progress-bar"
   >
     <li
-      className="disabled"
+      className="progress-bar-disabled"
     >
       <span />
     </li>
     <li
-      className="disabled"
+      className="progress-bar-disabled"
     >
       <span />
     </li>
     <li
-      className="disabled"
+      className="progress-bar-disabled"
     >
       <span />
     </li>
     <li
-      className="disabled"
+      className="progress-bar-disabled"
     >
       <span />
     </li>
     <li
-      className="disabled"
+      className="progress-bar-disabled"
     >
       <span />
     </li>
     <li
-      className="disabled"
+      className="progress-bar-disabled"
     >
       <span />
     </li>

@@ -2,7 +2,7 @@
 
 exports[`Step active snapshot 1`] = `
 <li
-  className="active"
+  className="progress-bar-active"
 >
   <span />
 </li>
@@ -10,7 +10,7 @@ exports[`Step active snapshot 1`] = `
 
 exports[`Step disabled snapshot 1`] = `
 <li
-  className="disabled"
+  className="progress-bar-disabled"
 >
   <span />
 </li>

@@ -1,5 +1,5 @@
 import React from 'react';
-import StepExample from './StepExample.js';
+import StepExample from './StepProgressBarExample.js';
 
 const Root = () => {
   return (

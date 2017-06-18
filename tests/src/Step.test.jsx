@@ -4,7 +4,7 @@ import renderer from 'react-test-renderer';
 
 test('Step active snapshot', () => {
   const component = renderer.create(
-    <Step className='active' />
+    <Step className='progress-bar-active' />
   );
   let tree = component.toJSON();
   expect(tree).toMatchSnapshot();
@@ -12,7 +12,7 @@ test('Step active snapshot', () => {
 
 test('Step disabled snapshot', () => {
   const component = renderer.create(
-    <Step className='disabled' />
+    <Step className='progress-bar-disabled' />
   );
   let tree = component.toJSON();
   expect(tree).toMatchSnapshot();
