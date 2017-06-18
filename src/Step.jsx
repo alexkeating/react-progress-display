@@ -1,7 +1,5 @@
-/**
- * Created by alexkeating on 6/13/17.
- */
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const Step = ({ className }) => {
   return (
@@ -9,6 +7,14 @@ const Step = ({ className }) => {
       <span />
     </li>
   );
+};
+
+Step.propTypes = {
+  className: PropTypes.string,
+};
+
+Step.defaultProps = {
+  className: '',
 };
 
 export { Step };

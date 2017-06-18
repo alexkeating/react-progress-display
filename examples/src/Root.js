@@ -1,6 +1,3 @@
-/**
- * Created by alexkeating on 6/17/17.
- */
 import React from 'react';
 import StepExample from './StepExample.js';
 

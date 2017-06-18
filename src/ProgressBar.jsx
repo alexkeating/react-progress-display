@@ -1,15 +1,5 @@
-/**
- * Created by alexkeating on 6/6/17.
- */
-
-// What will this progress bar do?
-// 0.1.0 should be a straight line that can be partitioned.
-// Add styling to steps and to progressbar
-// Add proptypes
-// Step styling should be flexible
-// Figure out mechanism to make everything active
-
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Step } from './Step.jsx';
 
 const ProgressBar = ({className, steps, activeSteps}) => {
@@ -24,6 +14,18 @@ const ProgressBar = ({className, steps, activeSteps}) => {
       {listOfSteps}
     </div>
   );
+};
+
+ProgressBar.propTypes = {
+  className: PropTypes.string,
+  steps: PropTypes.number,
+  activeSteps: PropTypes.arrayOf(PropTypes.number)
+};
+
+ProgressBar.defaultProps = {
+  className: '',
+  steps: 0,
+  activeSteps: [],
 };
 
 export { ProgressBar };
