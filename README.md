@@ -1,5 +1,5 @@
-# What is React Progress Bar?
-React progress bar is a component library for either adding 
+# What is React Progress Display?
+React progress display is a component library for either adding 
 or building your own progress bar for your react projects. You
 can either add one of our existing components or build your own
 with our components.
