@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StepExample snapshot 1`] = `
+<div>
+  <div
+    className="progress-bar"
+  >
+    <li
+      className="progress-bar-disabled"
+    >
+      <span />
+    </li>
+    <li
+      className="progress-bar-disabled"
+    >
+      <span />
+    </li>
+    <li
+      className="progress-bar-disabled"
+    >
+      <span />
+    </li>
+    <li
+      className="progress-bar-disabled"
+    >
+      <span />
+    </li>
+    <li
+      className="progress-bar-disabled"
+    >
+      <span />
+    </li>
+    <li
+      className="progress-bar-disabled"
+    >
+      <span />
+    </li>
+  </div>
+  <button
+    onClick={[Function]}
+  >
+    Forward
+  </button>
+  <button
+    onClick={[Function]}
+  >
+    Backward
+  </button>
+</div>
+`;

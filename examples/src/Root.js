@@ -1,8 +1,5 @@
-/**
- * Created by alexkeating on 6/17/17.
- */
 import React from 'react';
-import StepExample from './StepExample.js';
+import StepExample from './StepProgressBarExample.js';
 
 const Root = () => {
   return (

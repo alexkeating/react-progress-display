@@ -1,5 +1,5 @@
 import React from 'react';
-import { ProgressBar } from '../../src/ProgressBar.jsx';
+import { StepProgressBar } from '../../src/StepProgressBar.jsx';
 
 export default class StepExample extends React.Component {
   constructor(props) {
@@ -40,7 +40,7 @@ export default class StepExample extends React.Component {
   render() {
     return (
       <div>
-        <ProgressBar className="progress-bar" steps={6} activeSteps={this.state.activeSteps} />
+        <StepProgressBar className="progress-bar" steps={6} activeSteps={this.state.activeSteps} />
         <button onClick={() => this._onClickAdd(this.state.activeSteps, this.state.nextStep)}>Forward</button>
         <button onClick={() => this._onClickSubtract(this.state.activeSteps, this.state.nextStep)}>Backward</button>
       </div>

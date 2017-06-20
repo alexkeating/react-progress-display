@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StepProgressBar snapshot 1`] = `
+<div
+  className="progress-bar"
+>
+  <li
+    className="progress-bar-active"
+  >
+    <span />
+  </li>
+  <li
+    className="progress-bar-disabled"
+  >
+    <span />
+  </li>
+  <li
+    className="progress-bar-disabled"
+  >
+    <span />
+  </li>
+  <li
+    className="progress-bar-disabled"
+  >
+    <span />
+  </li>
+  <li
+    className="progress-bar-disabled"
+  >
+    <span />
+  </li>
+  <li
+    className="progress-bar-disabled"
+  >
+    <span />
+  </li>
+</div>
+`;
